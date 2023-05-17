@@ -9,5 +9,6 @@ Followed tutorials: <https://www.rust-lang.org/learn/get-started>
   - `cargo run`: run project
   - `cargo test`: test project
   - `cargo doc`: build documentation for project
+  - `cargo doc --open`: open documentation in browser
   - `cargo publish`: publish library to <https://crates.io>
   - `cargo --version`: check version of cargo
