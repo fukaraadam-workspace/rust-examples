@@ -2,6 +2,7 @@ mod copy_clone;
 mod function_ownership;
 mod reference_borrow;
 mod return_ownership;
+mod slice;
 
 fn main() {
     // Simple ownership example
@@ -11,4 +12,7 @@ fn main() {
 
     // Reference and Borrowing
     reference_borrow::main();
+
+    // Slice
+    slice::main();
 }
