@@ -1,3 +1,5 @@
-fn main() {
-    println!("Hello, world!");
+mod simple;
+
+pub fn main() {
+  simple::main();
 }
