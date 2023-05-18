@@ -29,10 +29,16 @@ pub fn main() {
         _ => println!("You rolled a some other value!"),
     }
     match dice_roll {
-      3 => println!("You rolled a 3!"),
-      7 => println!("You rolled a 7!"),
-      _ => (),
-  }
+        3 => println!("You rolled a 3!"),
+        7 => println!("You rolled a 7!"),
+        _ => (),
+    }
+    let config_max = Some(3u8);
+    if let Some(max) = config_max {
+        println!("The maximum is configured to be {}", max);
+    } else {
+        println!("The maximum is not configured");
+    }
 }
 
 fn value_in_cents(coin: Coin) -> u8 {
