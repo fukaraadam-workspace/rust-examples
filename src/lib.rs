@@ -1,3 +1,4 @@
+mod front_of_house2;
 mod front_of_house {
     pub mod hosting {
         pub fn add_to_waitlist() {}
@@ -15,6 +16,9 @@ mod front_of_house {
 }
 
 use crate::front_of_house::hosting;
+
+// Re-exporting Names with pub use
+pub use crate::front_of_house2::hosting as hosting2;
 
 pub fn eat_at_restaurant() {
     // Absolute path
