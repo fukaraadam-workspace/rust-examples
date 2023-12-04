@@ -10,6 +10,7 @@ Additional resources: <https://www.rust-lang.org/learn/get-started> and <https:/
 - `cargo new hello-rust`: initialize new project
   - `cargo build`: build project
   - `cargo run`: run project
+  - `cargo add`: add dependency to project
   - `cargo test`: test project
   - `cargo doc`: build documentation for project
   - `cargo doc --open`: open documentation in browser
